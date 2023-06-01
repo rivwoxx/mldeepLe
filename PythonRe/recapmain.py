@@ -1,5 +1,9 @@
+import os
+
 # Strings and numbers
 # The f stands for fomart.
+print(os.name)
+# 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
 print(f"The number {332} is a great number")
 print(f"The result of {22} times {3} is {22*3}")
 
@@ -20,3 +24,17 @@ time_operations(33,3)
 
 # def add_numbers(a, b):
 #     return a + b
+
+#Input
+
+def sum(x,y):
+    return x + y
+    
+value1 = input("Give me a number:  ")
+value2 = input("Give me another number: ")
+    
+if value2.isdigit() and value1.isdigit():
+    print(f"The sum of {value1} and {value2} is {sum(int(value1), int(value2))}")
+else:
+    print("Incorrect input!")
+    
