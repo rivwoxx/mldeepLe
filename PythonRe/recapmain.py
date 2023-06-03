@@ -3,7 +3,7 @@ import os
 # Strings and numbers
 # The f stands for fomart.
 print(os.name)
-# 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
+
 print(f"The number {332} is a great number")
 print(f"The result of {22} times {3} is {22*3}")
 
