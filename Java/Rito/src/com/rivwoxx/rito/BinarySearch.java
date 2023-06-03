@@ -1,6 +1,5 @@
 package com.rivwoxx.rito;
 
-import java.util.Arrays;
 
 public class BinarySearch {
 
