@@ -7,7 +7,7 @@ public class binSearch {
   public static void main(String[] args) {
 //    int[] arrayOfNumbers = {1,3,5,9,12,15,18,21,24,25};
     int[] arrayOfNumbers = {-1,0,3,3,4,5,9,12};
-    System.out.println(Integer.toString(binarySearch(arrayOfNumbers, -1)));
+    System.out.println(Integer.toString(binarySearch(arrayOfNumbers, 12)));
 //    System.out.println(Arrays.binarySearch(arrayOfNumbers,3));
 
   }
