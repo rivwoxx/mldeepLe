@@ -21,7 +21,7 @@ public class PairEqualsNum {
           pairs.add(numbersSorted[j]);
         }
       }
-    } 
+    }
     return pairs;
   }
 
