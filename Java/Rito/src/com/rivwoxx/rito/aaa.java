@@ -16,13 +16,14 @@ public class aaa {
     int count = 0;
     int i = 0;
     while (i < charInInput.length - 1) {
-        if (charInInput[i] == charInInput[count]) {
+      if (charInInput[i] == charInInput[count]) {
           count++;
       }
       i = count;
       smashedString = charInInput[i] + Integer.toString(count);
-    }
 
+    }
+//    System.out.println(smashedString);
     return inputString.length() > smashedString.length();
 
   }

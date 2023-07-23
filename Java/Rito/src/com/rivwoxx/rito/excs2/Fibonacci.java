@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class Fibonacci {
 
   public static void main(String[] args) {
-    System.out.println(Arrays.toString(fibonacciSequence(10)));
+//    System.out.println(Arrays.toString(fibonacciSequence(10)));
+    printNumbers(fibonacciSequence(10));
   }
 
   public static int[] fibonacciSequence(int limit) {
@@ -19,5 +20,11 @@ public class Fibonacci {
     }
 
     return numbers;
+  }
+
+  public static void printNumbers(int[] numbers){
+    for (int number : numbers) {
+      System.out.println(number);
+    }
   }
 }
